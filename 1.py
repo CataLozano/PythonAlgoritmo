@@ -1,1 +1,5 @@
-print
+cuenta= int(input("Ingrese el total de la cuenta: "))
+propina =float(input("Ingrese el porcentaje de propina: "))
+total = cuenta + (cuenta * propina / 100)
+print("la propina es: ", cuenta * propina / 100)
+print("El total a pagar es: ", total)
